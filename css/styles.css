@@ -238,6 +238,47 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+/* HERO */
+.hero {
+  position: relative;
+  z-index: 30;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-image: url("../img/hero-bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 593px) -261px;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 450px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 100;
+  color: var(--black);
+  letter-spacing: -1px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hero__img {
+  position: absolute;
+  width: 730px;
+  height: 900px;
+  left: calc(50% + 74px);
+  top: -112px;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
